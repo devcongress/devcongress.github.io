@@ -43,54 +43,20 @@
     mepPlaylistTracks: [
       {
             "id": "item-1",
-            "title": "Pull Up",
-            "except": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quamquam tu hanc copiosiorem etiam soles dicere. Nihil illinc huc pervenit.",
-            "link": "track.detail.html",
-            "thumb": { "src": "images/b0.jpg" },
+            "title": "Life as a Software Developer by Edem Kumodzi",
+            "except": "Edem talks about his startup Story Foundry and how he brands himself as a freelance developer",
+            "link": "#",
+            "thumb": { "src": "images/edem_kumodzi.jpg" },
             "src": "http://api.soundcloud.com/tracks/269944843/stream?client_id=a10d44d431ad52868f1bce6d36f5234c",
             "meta": {
-                "author": "Summerella",
-                "authorlink": "artist.detail.html",
-                "date": "30.05.2016",
-                "category": "Blue",
-                "tag": "Holiday",
+                "author": "Echo",
+                "authorlink": "#",
+                "date": "09.01.2017",
+                "category": "Technology",
+                "tag": "Startups",
                 "play": 3200,
                 "like": 210,
-                "duration": "2:50"
-            }
-        },
-        {
-            "id": "item-2",
-            "title": "Fireworks",
-            "except": "Hidem saepe faciamus. Quid ad utilitatem tantae pecuniae? Utram tandem linguam nescio? Sed hoc sane concedamus.",
-            "link": "track.detail.html",
-            "thumb": { "src": "images/b1.jpg" },
-            "src": "http://api.soundcloud.com/tracks/259445397/stream?client_id=a10d44d431ad52868f1bce6d36f5234c",
-            "meta": {
-                "author": "Kygo",
-                "authorlink": "artist.detail.html",
-                "date": "02.05.2016",
-                "category": "Jazz",
-                "play": 30,
-                "like": 10,
-                "duration": "4:25"
-            }
-        },
-        {
-            "id": "item-3",
-            "title": "I Wanna Be In the Cavalry",
-            "except": "Tantae pecuniae? Utram tandem linguam nescio? Sed hoc sane concedamus.",
-            "link": "track.detail.html",
-            "thumb": { "src": "images/b2.jpg" },
-            "src": "http://api.soundcloud.com/tracks/79031167/stream?client_id=a10d44d431ad52868f1bce6d36f5234c",
-            "meta": {
-                "author": "Jeremy Scott",
-                "authorlink": "artist.detail.html",
-                "date": "09.04.2016",
-                "category": "DJ",
-                "play": 300,
-                "like": 10,
-                "duration": "2:50"
+                "duration": "1:00:45"
             }
         }
     ]
