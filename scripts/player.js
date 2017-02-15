@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-  
+
   if($('.playlist').length == 0) return;
 
   var playlist = $( '.playlist' ).mepPlaylist({
@@ -47,7 +47,7 @@
             "except": "Edem talks about his startup Story Foundry and how he brands himself as a freelance developer",
             "link": "#",
             "thumb": { "src": "images/edem_kumodzi.jpg" },
-            "src": "http://api.soundcloud.com/tracks/269944843/stream?client_id=a10d44d431ad52868f1bce6d36f5234c",
+            "src": "http://api.soundcloud.com/tracks/294038663/stream?client_id=vGiHJM6Hxa4SFbgU0U3uakLyYTNijUpk",
             "meta": {
                 "author": "Echo",
                 "authorlink": "#",
