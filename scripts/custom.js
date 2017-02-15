@@ -3,14 +3,17 @@ $(function(){
         e.preventDefault();
         subscriber_email = $( this ).serializeArray()[0].value;
 
-        Devless.addData("Echopodcast", "subscription", {
-            "email": subscriber_email
-        }, function(res){
-            if(res.status_code === 609){
-                $('.alert').show();
-                document.getElementById("email").reset();
-            }
-        });
+        if(subscriber_email !== ""){
+            Devless.addData("echopodcast", "subscription", {
+                "email": subscriber_email
+            }, function(res){
+                if(res.status_code === 609){
+                    $('.alert').show();
+                }
+            });
+        } else {
+            alert("Don't do that else I will whop you :(");
+        }
     })
 });
 
