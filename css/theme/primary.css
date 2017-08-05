@@ -17,7 +17,8 @@
 
 .b-primary,
 .mejs-controls .mejs-time-rail .mejs-time-current {
-  border-color: #02b875; }
+  border-color: #02b875;
+  	font-family:  'Poiret One' }
 
 .mejs-error {
   background-color: #02b875;

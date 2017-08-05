@@ -1,5 +1,5 @@
 /* 
-
+Cascading styling
 */
 @media (min-width: 544px) {
   #inputfield {
@@ -12,13 +12,15 @@
 }
 
 html {
-  background: transparent; }
+  background: transparent; 
+}
 
 body {
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.875rem;
   background-color: #f2f2f2;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased; 
+}
 
 *:focus {
   outline: 0 !important; }
@@ -3279,7 +3281,8 @@ body {
 .grey .form-control {
   background: transparent;
   background-color: rgba(255, 255, 255, 0.1);
-  color: inherit; }
+  color: inherit;
+  font-family:  'Poiret One' }
   .dark .form-control:focus,
   .black .form-control:focus,
   .grey .form-control:focus {
