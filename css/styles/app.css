@@ -1,9 +1,14 @@
 /* 
 Cascading styling
 */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 @media (min-width: 544px) {
   #inputfield {
     width: 300px;
+    font-weight: bold;
+      letter-spacing: 0.05em;
+      font-family: 'PT Sans Narrow', sans-serif;
+      color: white;
   }
 }
 
