@@ -1,3 +1,5 @@
+/*external fonts from google*/
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /*custom*/
 @font-face{
 	font-family:'Poppins';
@@ -29,12 +31,11 @@
 .display-3,
 .display-4,
 .h1,.h2,.h3,.h4,.h5,.h6,
-h1,h2,h3,h4,h5,h6{
-	font-family: "Poppins", "Trebuchet MS", "PT Sans", "Helvetica Neue", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
-	letter-spacing: -0.04em;
+h1,h2,h4,h5,h6{
+	font-family:  'Poiret One', "Poppins", "Trebuchet MS", "PT Sans", "Helvetica Neue", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.04em;
 	font-weight: bold;
 }
-
 body{
 	font-family: "Segoe UI", "Trebuchet MS", "PT Sans", "Helvetica Neue", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 }
