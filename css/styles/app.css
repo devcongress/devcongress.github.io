@@ -12,8 +12,9 @@ Cascading styling
   }
 }
 
-.alert{
-    display: none;
+.header{
+  background-color: #363C43;
+  color: white;
 }
 
 html {
@@ -21,11 +22,12 @@ html {
 }
 
 body {
-  color: rgba(0, 0, 0, 0.87);
+  color: black;
   font-size: 0.875rem;
   background-color: #f2f2f2;
   -webkit-font-smoothing: antialiased; 
 }
+
 
 *:focus {
   outline: 0 !important; }

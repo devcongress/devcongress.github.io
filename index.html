@@ -48,12 +48,7 @@
     </div>
     <div class="app-body" id="view">
 
-<div class="owl-carousel grey owl-theme owl-dots-bottom-center" data-ui-jp="owlCarousel" data-ui-options="{
-             items: 1
-            ,loop: true
-            ,autoplay: true
-            ,nav: true
-          }">
+<div class="header">
   <div class="row-col">
     <div class="col-lg-2"></div>
     <div class="col-lg-8 text-center">
@@ -64,10 +59,37 @@
           <div class="form-group">
             <input type="email" id="inputfield" class="form-control" placeholder="Enter your email" name="email">
           </div>
-          <button type="submit" class="btn circle btn-outline b-primary">Subscribe Now</button>
+          <button type="submit" class="btn circle btn-outline b-primary"  data-toggle="modal" data-target="#notify">Subscribe Now</button>
         <!--<a href="#" class="btn circle btn-outline b-primary m-b-lg p-x-md">Listen Now</a>-->
         </form>
         </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="notify" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hello</h4>
+        </div>
+        <div class="modal-body">
+
+           <div class="dv-notify-success">
+                        <div class="alert alert-success alert-dismissable">
+                             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                          <strong>Success!</strong> Thanks for reaching out. Will get back to you as soon as possible
+                                  </div>
+                     </div>        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
        </div>
             <div class="col-lg-2"></div>
   </div>
@@ -120,6 +142,15 @@
 
 <!-- ############ LAYOUT END-->
   </div>
+  <footer>
+  <div class="col-sm-4">
+    <h2>
+      About
+    </h2>
+  </div>
+
+
+</footer>
 <!-- build:js scripts/app.min.js -->
 <!-- jQuery -->
   <script src="libs/jquery/dist/jquery.js"></script>
