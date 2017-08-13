@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="libs/owl.carousel/dist/assets/owl.theme.css" type="text/css" />
   <link rel="stylesheet" href="libs/mediaelement/build/mediaelementplayer.min.css" type="text/css" />
   <link rel="stylesheet" href="libs/mediaelement/build/mep.css" type="text/css" />
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
   <!-- endbuild -->
 </head>
@@ -48,38 +49,45 @@
     </div>
     <div class="app-body" id="view">
 
-<div class="owl-carousel black owl-theme owl-dots-bottom-center" data-ui-jp="owlCarousel" data-ui-options="{
-             items: 1
-            ,loop: true
-            ,autoplay: true
-            ,nav: true
-          }">
+<div class="header">
   <div class="row-col">
     <div class="col-lg-2"></div>
     <div class="col-lg-8 text-center">
       <div class="p-a-lg">
-        <h2 class="display-4 m-y-lg">Echo, <br/>Weekly Web Talk With Software Enthusiasts</h2>
-        <a href="https://devless.io" target="_blank"><h6 class="text-muted m-b-lg">Sponsored by DevLess.</h6></a>
-        <div class="alert alert-success alert-dismissible" role="alert">
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <strong>Boom Ya!</strong> Subscription successful.
-        </div>
-        <form class="form-inline">
+        <h2 class="display-4 m-y-lg">Echo, <br/>Weekly Web Talk With Software Enthusiasts.</h2>
+        <a href="https://devless.io" target="_blank"><h6 class="m-b-lg">Sponsored by DevLess.</h6></a><br/>
+           <div class="dv-notify-success">
+                        <div class="alert alert-danger alert-dismissable">
+                             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <i class="em  em-smile"></i> Great, You've been added to the subscription list.
+                                  </div>
+                                     <div class="dv-notify-failed">
+                                   <div class="alert alert-primary alert-dismissable">
+                             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+     <i class="em em-disappointed"></i> Sorry, we could add not you to the subscription list.<br/>
+                    Please refresh the page and try again.                                  
+                        </div>
+                    </div>
+
+                     </div>
+                 
+        <form class="form-inline dv-add-oneto:kree:echo">
           <div class="form-group">
             <input type="email" id="inputfield" class="form-control" placeholder="Enter your email" name="email">
           </div>
           <button type="submit" class="btn circle btn-outline b-primary">Subscribe Now</button>
         <!--<a href="#" class="btn circle btn-outline b-primary m-b-lg p-x-md">Listen Now</a>-->
         </form>
-      </div>
-    </div>
-    <div class="col-lg-2"></div>
+        </div>
+         </div>
+            <div class="col-lg-2"></div>
   </div>
 </div>
+
 <!-- ############ PAGE START-->
 
 <div class="page-content">
-  <div class="container dv-mediaWrap">
+  <div class="container">
     <div class="row-col">
       <div class="col-md-12 no-border-md">
         <div class="padding">
@@ -122,8 +130,10 @@
   <!-- / -->
 
 <!-- ############ LAYOUT END-->
-  </div>
 
+
+
+</footer>
 <!-- build:js scripts/app.min.js -->
 <!-- jQuery -->
   <script src="libs/jquery/dist/jquery.js"></script>
@@ -156,11 +166,11 @@
   <script src="scripts/app.js"></script>
   <script src="scripts/site.js"></script>
   <script src="scripts/ajax.js"></script>
-  <script src="https://library.devless.io/cdn/1.0/dv_sdk.js"></script>
-  <script>
-    var constants = { "token":"f13e55b08d8137fcdda4c299a6ea9645", "key":"TEMPORAL-APP-KEY", "domain":"https://echopodcast.herokuapp.com" }; var Devless = Devless(constants);
-  </script>
-  <script src="scripts/custom.js"></script>
+ 
+  <!-- Devless token -->
+<script src="http://polar-earth-95248.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="55e2c2fa5ea8b163d60595e679a65783"></script>
+  <!-- // Devles token -->
 <!-- endbuild -->
 </body>
 </html>
+                      

@@ -1,25 +1,47 @@
 /* 
-
+Cascading styling
 */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 @media (min-width: 544px) {
   #inputfield {
     width: 300px;
+    font-weight: bold;
+      letter-spacing: 0.05em;
+      font-family: 'PT Sans Narrow', sans-serif;
+      color: black;
   }
 }
 
-.alert{
-    display: none;
+.header{
+ background-color: #D9AFD9;
+background-image: -webkit-linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+background-image: -moz-linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+background-image: -o-linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+background-image: linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+  color: white;
 }
 
 html {
-  background: transparent; }
+  background: transparent; 
+}
 
 body {
-  color: rgba(0, 0, 0, 0.87);
+  color: black;
   font-size: 0.875rem;
   background-color: #f2f2f2;
-  -webkit-font-smoothing: antialiased; }
-
+  -webkit-font-smoothing: antialiased; 
+}
+.alert-danger {
+  background-color:  #377ed7;
+  color: white;
+  font-size: 15px;
+}
+.alert-primary{
+  background-color:  #c60d51;
+   font-size: 15px;
+  color: white;
+ 
+}
 *:focus {
   outline: 0 !important; }
 
@@ -3279,7 +3301,8 @@ body {
 .grey .form-control {
   background: transparent;
   background-color: rgba(255, 255, 255, 0.1);
-  color: inherit; }
+  color: inherit;
+  font-family:  'Poiret One' }
   .dark .form-control:focus,
   .black .form-control:focus,
   .grey .form-control:focus {
