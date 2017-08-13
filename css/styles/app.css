@@ -31,8 +31,17 @@ body {
   background-color: #f2f2f2;
   -webkit-font-smoothing: antialiased; 
 }
-
-
+.alert-danger {
+  background-color:  #377ed7;
+  color: white;
+  font-size: 15px;
+}
+.alert-primary{
+  background-color:  #c60d51;
+   font-size: 15px;
+  color: white;
+ 
+}
 *:focus {
   outline: 0 !important; }
 
