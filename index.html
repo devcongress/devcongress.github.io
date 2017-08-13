@@ -55,31 +55,57 @@
     <div class="col-lg-8 text-center">
       <div class="p-a-lg">
         <h2 class="display-4 m-y-lg">Echo, <br/>Weekly Web Talk With Software Enthusiasts.</h2>
-        <a href="https://devless.io" target="_blank"><h6 class="m-b-lg">Sponsored by DevLess.</h6></a><br/>
-           <div class="dv-notify-success">
-                        <div class="alert alert-danger alert-dismissable">
-                             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-    <i class="em  em-smile"></i> Great, You've been added to the subscription list.
-                                  </div>
-                                     <div class="dv-notify-failed">
-                                   <div class="alert alert-primary alert-dismissable">
-                             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-     <i class="em em-disappointed"></i> Sorry, we could add not you to the subscription list.<br/>
-                    Please refresh the page and try again.                                  
-                        </div>
-                    </div>
-
-                     </div>
-                 
+        <a href="https://devless.io" target="_blank"><h6 class="m-b-lg">Sponsored by DevLess.</h6></a>
         <form class="form-inline dv-add-oneto:kree:echo">
           <div class="form-group">
             <input type="email" id="inputfield" class="form-control" placeholder="Enter your email" name="email">
           </div>
-          <button type="submit" class="btn circle btn-outline b-primary">Subscribe Now</button>
+          <button type="submit" class="btn circle btn-outline b-primary"  data-toggle="modal" data-target="#notify">Subscribe Now</button>
         <!--<a href="#" class="btn circle btn-outline b-primary m-b-lg p-x-md">Listen Now</a>-->
         </form>
         </div>
-         </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="notify" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hello</h4>
+          <style type="text/css">
+            .modal-content{
+    background-color: #D9AFD9;
+background-image: -webkit-linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+background-image: -moz-linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+background-image: -o-linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+background-image: linear-gradient(87deg, #D9AFD9 0%, #97D9E1 100%);
+
+          </style>
+        </div>
+        <div class="modal-body">
+
+           <div class="dv-notify-success">
+                    <i class="em  em-smile"></i> Great, You've been added to the subscription list.
+                     </div>
+                          <div class="dv-notify-failed">
+                    <i class="em em-disappointed"></i> Sorry, we could add not you to the subscription list.<br/>
+                    Please refresh the page and try again.
+
+                     </div>
+
+
+               </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+       </div>
             <div class="col-lg-2"></div>
   </div>
 </div>
@@ -130,11 +156,9 @@
   <!-- / -->
 
 <!-- ############ LAYOUT END-->
-
-
-
-</footer>
-<!-- build:js scripts/app.min.js -->
+  </div>
+  
+  <!-- build:js scripts/app.min.js -->
 <!-- jQuery -->
   <script src="libs/jquery/dist/jquery.js"></script>
 <!-- Bootstrap -->
@@ -168,9 +192,9 @@
   <script src="scripts/ajax.js"></script>
  
   <!-- Devless token -->
-<script src="http://polar-earth-95248.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="55e2c2fa5ea8b163d60595e679a65783"></script>
+<script src="https://polar-earth-95248.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="55e2c2fa5ea8b163d60595e679a65783"></script>
   <!-- // Devles token -->
 <!-- endbuild -->
 </body>
 </html>
-                      
+   

@@ -417,7 +417,6 @@ sup {
 
 .form-control {
   border-color: rgba(120, 130, 140, 0.2);
-  border-radius: 0;
   min-height: 2.375rem; }
   .form-control:focus {
     border-color: rgba(120, 130, 140, 0.3); }
